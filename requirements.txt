@@ -1,0 +1,39 @@
+# Core dependencies for Resume Matching Demo
+
+# Embedding and NLP
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Vector similarity search
+faiss-cpu>=1.7.4
+
+# PDF parsing
+pdfplumber>=0.9.0
+
+# DOCX parsing
+python-docx>=0.8.11
+
+# PDF creation (choose one - fpdf2 is lighter, reportlab is more feature-rich)
+fpdf2>=2.7.0
+# OR
+# reportlab>=4.0.0
+
+# Optional: For better PDF parsing (alternative)
+# PyPDF2>=3.0.0
+
+# Web UI
+streamlit>=1.28.0
+plotly>=5.17.0
+pandas>=2.0.0
+
+# Optional: For persistent vector databases
+# chromadb>=0.4.0  # Recommended for production
+# pinecone-client>=2.2.0  # Cloud-managed option
+
+# LLM-enhanced matching (Free option!)
+huggingface_hub>=0.19.0  # Hugging Face Inference API (FREE!)
+
+# Optional: For paid LLM providers
+# openai>=1.0.0  # For OpenAI GPT models
+# anthropic>=0.7.0  # For Claude models
+

@@ -1,0 +1,42 @@
+ALEX THOMPSON
+Junior Software Developer
+Email: alex.thompson@email.com | Phone: (555) 789-0123
+LinkedIn: linkedin.com/in/alexthompson
+
+PROFESSIONAL SUMMARY
+--------------------
+Recent computer science graduate with strong foundation in software development. 
+Eager to contribute to a development team and learn from experienced engineers.
+
+TECHNICAL SKILLS
+----------------
+Programming: JavaScript, Python, Java, C++
+Web: HTML5, CSS3, React (basic), Node.js (basic)
+Databases: SQL, MongoDB (basic)
+Tools: Git, GitHub, VS Code
+
+PROFESSIONAL EXPERIENCE
+
+Software Development Intern | TechCompany | Summer 2023
+--------------------------------------------------------
+- Developed features for internal web application using React
+- Fixed bugs and improved code quality
+- Participated in code reviews
+- Learned agile development practices
+
+EDUCATION
+---------
+Bachelor of Science in Computer Science
+State University | 2024
+
+Relevant Coursework:
+- Data Structures and Algorithms
+- Software Engineering
+- Database Systems
+- Web Development
+
+PROJECTS
+--------
+- Personal portfolio website using React
+- Todo application with Node.js and MongoDB
+- Weather app using REST API

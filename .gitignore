@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# API Keys and secrets (if stored in separate config files)
+config.py
+secrets.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+matching_results.txt
+data/*.txt
+!data/.gitkeep
+

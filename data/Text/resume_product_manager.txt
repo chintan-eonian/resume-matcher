@@ -1,0 +1,60 @@
+DAVID KIM
+Product Manager - Software Products
+Email: david.kim@email.com | Phone: (555) 567-8901
+LinkedIn: linkedin.com/in/davidkim
+
+PROFESSIONAL SUMMARY
+--------------------
+Strategic Product Manager with 6 years of experience in software product development. 
+Expert in agile methodologies, user research, and cross-functional collaboration. 
+Successfully launched 5+ products from concept to market.
+
+KEY SKILLS
+----------
+Product Management: Roadmapping, user stories, backlog management, prioritization
+Tools: Jira, Confluence, Aha!, Productboard, Figma
+Methodologies: Agile, Scrum, Kanban, Lean Startup
+Analytics: Product metrics, user analytics, A/B testing
+Communication: Stakeholder management, presentations, documentation
+
+PROFESSIONAL EXPERIENCE
+
+Senior Product Manager | SoftwareCo | 2020 - Present
+-----------------------------------------------------
+- Lead product strategy for mobile app portfolio with 2M+ active users
+- Define product roadmap and prioritize features based on user research and data
+- Work with engineering teams using Agile/Scrum to deliver features on time
+- Conduct user interviews and analyze feedback to inform product decisions
+- Manage product backlog and write detailed user stories
+- Collaborate with design team on UX/UI improvements
+- Launched 3 major features increasing user engagement by 45%
+- Monitor product KPIs and metrics using analytics tools
+
+Product Manager | TechStartup | 2018 - 2020
+---------------------------------------------
+- Owned product vision and strategy for SaaS platform
+- Gathered requirements from customers and internal stakeholders
+- Created product specifications and worked with engineering on implementation
+- Conducted competitive analysis and market research
+- Planned product launches and go-to-market strategies
+- Increased user retention by 30% through product improvements
+
+Associate Product Manager | Enterprise Software Inc. | 2016 - 2018
+--------------------------------------------------------------------
+- Supported product managers on multiple product lines
+- Created product documentation and user guides
+- Assisted with user acceptance testing
+- Analyzed user data and generated reports
+
+EDUCATION
+---------
+Master of Business Administration (MBA)
+Business School | 2016
+
+Bachelor of Science in Computer Science
+Tech University | 2014
+
+CERTIFICATIONS
+--------------
+- Certified Scrum Product Owner (CSPO)
+- Pragmatic Marketing Certified

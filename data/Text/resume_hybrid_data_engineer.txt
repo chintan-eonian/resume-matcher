@@ -1,0 +1,40 @@
+JENNIFER PARK
+Data Engineer / Data Scientist
+Email: jennifer.park@email.com | Phone: (555) 890-1234
+LinkedIn: linkedin.com/in/jenniferpark
+
+PROFESSIONAL SUMMARY
+--------------------
+Data Engineer with 4 years of experience building data pipelines and infrastructure. 
+Also skilled in data analysis and basic machine learning. Strong Python and SQL skills.
+
+TECHNICAL SKILLS
+----------------
+Languages: Python, SQL, Scala, Java
+Data Engineering: Spark, Hadoop, Airflow, Kafka, ETL pipelines
+Databases: PostgreSQL, MongoDB, Snowflake, Redshift
+Cloud: AWS (S3, EC2, Lambda), Azure
+Data Science: pandas, scikit-learn (basic), Jupyter Notebooks
+Tools: Git, Docker, Linux
+
+PROFESSIONAL EXPERIENCE
+
+Data Engineer | BigData Corp | 2020 - Present
+-----------------------------------------------
+- Built and maintained ETL pipelines processing 100GB+ daily
+- Designed data warehouse architecture using Snowflake
+- Optimized Spark jobs reducing processing time by 50%
+- Created automated data quality checks and monitoring
+- Worked with data scientists to deploy ML models to production
+- Built real-time data streaming pipelines using Kafka
+- Developed data ingestion systems from various sources (APIs, databases, files)
+
+EDUCATION
+---------
+Bachelor of Science in Computer Engineering
+Engineering University | 2020
+
+PROJECTS
+--------
+- Open-source ETL framework for Python
+- Real-time analytics dashboard

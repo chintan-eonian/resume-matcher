@@ -1,0 +1,50 @@
+DR. SARAH CHEN
+Senior Data Scientist
+Email: sarah.chen@email.com | Phone: (555) 234-5678
+LinkedIn: linkedin.com/in/sarahchen
+
+PROFESSIONAL SUMMARY
+--------------------
+PhD in Machine Learning with 5 years of experience in data science and predictive 
+analytics. Expert in Python, TensorFlow, and building production ML systems. 
+Published researcher with 10+ papers in top ML conferences.
+
+TECHNICAL SKILLS
+----------------
+Languages: Python, R, SQL, Scala
+ML/AI: TensorFlow, PyTorch, scikit-learn, XGBoost, Keras
+Data Tools: pandas, NumPy, Spark, Hadoop
+Visualization: Tableau, Power BI, Matplotlib, Seaborn
+Cloud: AWS SageMaker, Google Cloud ML, Azure ML
+Databases: PostgreSQL, MongoDB, Snowflake
+
+PROFESSIONAL EXPERIENCE
+
+Senior Data Scientist | DataAnalytics Corp | 2019 - Present
+------------------------------------------------------------
+- Built and deployed 15+ ML models for customer churn prediction and recommendation systems
+- Reduced model training time by 70% using distributed computing with Spark
+- Created automated ML pipelines using AWS SageMaker
+- Developed A/B testing frameworks increasing conversion rates by 25%
+- Presented insights to C-level executives using Tableau dashboards
+- Published research on deep learning applications in NLP
+
+Data Scientist | Analytics Solutions Inc. | 2017 - 2019
+--------------------------------------------------------
+- Analyzed large-scale datasets (100M+ records) to extract business insights
+- Developed predictive models for sales forecasting and demand planning
+- Built ETL pipelines for data preprocessing and feature engineering
+- Created data visualizations and dashboards for stakeholders
+
+EDUCATION
+---------
+PhD in Computer Science - Machine Learning Specialization
+Stanford University | 2017
+
+Master of Science in Statistics
+UC Berkeley | 2014
+
+PUBLICATIONS
+------------
+- "Deep Learning for Natural Language Processing" - NeurIPS 2020
+- "Scalable Machine Learning Systems" - ICML 2019

@@ -1,0 +1,48 @@
+JOHN ANDERSON
+Senior Full Stack Developer
+Email: john.anderson@email.com | Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/johnanderson
+
+PROFESSIONAL SUMMARY
+--------------------
+Experienced Full Stack Developer with 6+ years of expertise in building scalable 
+web applications. Proficient in React, Node.js, Python, and cloud technologies. 
+Strong background in microservices architecture and DevOps practices.
+
+TECHNICAL SKILLS
+----------------
+Programming Languages: JavaScript, Python, Java, TypeScript
+Frontend: React, Angular, Vue.js, HTML5, CSS3
+Backend: Node.js, Express, Django, Flask, Spring Boot
+Databases: PostgreSQL, MongoDB, MySQL, Redis
+Cloud & DevOps: AWS, Docker, Kubernetes, CI/CD, Jenkins
+Tools: Git, GitHub, Jira, Postman, VS Code
+
+PROFESSIONAL EXPERIENCE
+
+Senior Full Stack Developer | TechCorp Inc. | 2020 - Present
+------------------------------------------------------------
+- Led development of microservices-based e-commerce platform serving 1M+ users
+- Built React frontend with Redux for state management
+- Developed RESTful APIs using Node.js and Express
+- Implemented CI/CD pipelines reducing deployment time by 60%
+- Mentored junior developers and conducted code reviews
+- Technologies: React, Node.js, PostgreSQL, AWS, Docker
+
+Full Stack Developer | StartupXYZ | 2018 - 2020
+------------------------------------------------
+- Developed responsive web applications using React and Angular
+- Created Python-based APIs and data processing services
+- Worked with MongoDB for document storage
+- Collaborated with cross-functional teams using Agile methodologies
+- Technologies: React, Python, MongoDB, AWS
+
+EDUCATION
+---------
+Bachelor of Science in Computer Science
+University of Technology | 2018
+
+PROJECTS
+--------
+- Open-source React component library (500+ GitHub stars)
+- Real-time chat application using WebSockets

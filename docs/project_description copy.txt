@@ -1,0 +1,287 @@
+Below is a **clear, professional, detailed description of the demo task** you just designed and built — written in a way that reads like it came from a **solution architect or technical project document**, not ChatGPT.
+
+You can use this text directly in your proposal, internal doc, or client demo notes.
+
+---
+
+# ✅ DEMO TASK DESCRIPTION
+
+## **AI-Based Resume–Job Description Matching (Proof of Concept)**
+
+---
+
+## 1. Objective of the Task
+
+The purpose of this demo is to validate the **core screening capability** of the proposed AI-powered HR platform — the automated matching of candidate resumes against a job description using **semantic AI search**.
+
+This proof-of-concept demonstrates that the system can:
+
+* Ingest a job description and multiple resumes
+* Understand semantic meaning beyond keywords
+* Quantify candidate relevance using vector similarity
+* Rank applicants automatically based on job fit
+* Operate without any external APIs or cloud AI services
+
+The demo serves as a **foundational building block** for the full Talent Acquisition module of the platform and validates the retrieval and scoring mechanisms before introducing large language models and workflow orchestration.
+
+---
+
+---
+
+## 2. Scope of the Demo
+
+This task focuses exclusively on:
+
+✅ Resume ingestion
+✅ Job description ingestion
+✅ Natural-language understanding via embedding models
+✅ AI similarity scoring
+✅ Candidate ranking and filtering
+
+The demo deliberately excludes:
+
+* Document generation and summarization
+* Multi-agent orchestration
+* Language model prompting
+* ATS integrations
+* Long-running recruitment workflows
+
+These components are scoped for later phases after core matching accuracy and pipelines are validated.
+
+---
+
+---
+
+---
+
+## 3. Technical Overview
+
+The demo implements a **semantic information retrieval pipeline** using open-source tools running entirely on local CPU infrastructure.
+
+### **Technology Used**
+
+| Component     | Tool                                       |
+| ------------- | ------------------------------------------ |
+| Programming   | Python                                     |
+| Embeddings    | Sentence-Transformers (`all-MiniLM-L6-v2`) |
+| Vector Search | FAISS                                      |
+| Text Storage  | Flat files (.txt)                          |
+
+No GPUs or external APIs are required to execute the demo.
+
+---
+
+---
+
+---
+
+## 4. Data Model
+
+### **Inputs**
+
+#### Job Description
+
+A text document containing role requirements such as:
+
+* Skills
+* Industry domain
+* Experience expectations
+* Tools exposure
+
+#### Resumes
+
+Multiple synthetic resumes representing different candidate backgrounds:
+
+* Strong industry match
+* Partial match (different industry, overlapping skills)
+* Weak match
+
+Each resume is stored as unstructured plain text.
+
+---
+
+### **Example Input Profile**
+
+Job Description:
+
+> Sales Manager with experience in B2B SaaS sales, CRM usage (Salesforce), lead generation, and enterprise account handling.
+
+Resumes:
+
+* **Candidate A:** SaaS sales professional with Salesforce exposure
+* **Candidate B:** Pharmaceutical field sales representative
+* **Candidate C:** Retail store supervisor
+
+---
+
+---
+
+---
+
+## 5. Processing Workflow
+
+The demo operates as a **four-step semantic matching pipeline**:
+
+---
+
+### ✅ Step 1 – Load Documents
+
+* Job description and resumes are loaded as raw text.
+* All content is normalized into a uniform string format.
+
+---
+
+---
+
+### ✅ Step 2 – Generate Embeddings
+
+* The SentenceTransformer model converts each document into a numerical vector representation.
+* These embeddings encode semantic meaning rather than relying on simple keyword overlap.
+
+---
+
+```
+JD → Vector
+Resume A → Vector
+Resume B → Vector
+Resume C → Vector
+```
+
+---
+
+---
+
+### ✅ Step 3 – Vector Indexing
+
+* Resume embeddings are stored in a FAISS similarity index.
+* This index allows rapid comparison of a search vector (JD) with large candidate sets using spatial similarity.
+
+---
+
+---
+
+### ✅ Step 4 – Similarity Search & Scoring
+
+* The job description embedding is queried against the FAISS index.
+* The system computes Euclidean distance-based similarity scores.
+* These distances are normalized into **percentage match scores**.
+
+---
+
+```
+Match Score (%) = (1 / (1 + vector distance)) × 100
+```
+
+---
+
+---
+
+---
+
+### ✅ Step 5 – Ranking Output
+
+Candidates are sorted descending by match score and displayed.
+
+---
+
+### Example Output
+
+| Rank | Candidate | Match Score |
+| ---- | --------- | ----------- |
+| 1    | Resume 1  | 89.27%      |
+| 2    | Resume 2  | 46.21%      |
+| 3    | Resume 3  | 22.53%      |
+
+---
+
+The highest-scoring candidate demonstrates the greatest semantic similarity to the job description — typically corresponding to overlapping skills, tools, industry domain, and experience characteristics.
+
+---
+
+---
+
+---
+
+## 6. Evaluation Criteria
+
+Candidate relevance is assessed solely based on:
+
+* **Semantic similarity between skill descriptions**
+* **Industry vocabulary alignment**
+* **Tool and responsibility references**
+
+Explicit weighting models (for skills, experience years, certifications, or compliance) are intentionally omitted at this stage to validate baseline matching performance.
+
+---
+
+---
+
+---
+
+## 7. Demo Outcomes
+
+This task validates the following system capabilities:
+
+✅ Accurate recognition of role-relevant experience
+✅ Clear separation between strong, moderate, and weak candidates
+✅ Fully offline execution without paid SaaS services
+✅ Foundation compatibility with Azure-hosted pgvector databases
+✅ Seamless upgrade path to self-hosted GPT-OSS modeling for enhanced structuring
+
+---
+
+---
+
+---
+
+## 8. Alignment with Final Production Architecture
+
+This demo represents the **core retrieval engine** of the final AI HRMS platform:
+
+```
+Production Matching Flow
+
+JD + Resume documents
+          ↓
+Embedding generation (same process)
+          ↓
+Vector DB (PostgreSQL + pgvector)
+          ↓
+Similarity scoring (same logic)
+          ↓
+LangGraph agent workflow orchestration (future)
+          ↓
+Interview shortlisting & reporting
+```
+
+The only enhancements planned for production include:
+
+* Deployment of embeddings and ranking inside PostgreSQL pgvector instead of FAISS
+* Integration of structured resume extraction using GPT-OSS models
+* Workflow orchestration via LangGraph pipelines
+* Bias detection, scoring normalization, and reporting layers
+
+---
+
+---
+
+---
+
+## 9. Demo Value
+
+This demonstration proves technical viability for:
+
+✅ AI-assisted candidate screening
+✅ Data privacy-safe recruitment automation
+✅ Infrastructure-light deployments
+✅ Gradual migration toward full autonomous workflow agents
+
+---
+
+---
+
+---
+
+## ✅ Final Summary
+
+The demo task establishes a **fully operational proof-of-concept for semantic resume screening**, validating that the platform’s core talent acquisition matching capability can be delivered without reliance on paid AI APIs or complex infrastructure. It forms the foundation for integrating advanced agent workflows, enterprise integrations, and self-hosted LLM reasoning in subsequent phases.
