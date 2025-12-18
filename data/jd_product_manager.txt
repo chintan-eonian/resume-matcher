@@ -1,0 +1,37 @@
+PRODUCT MANAGER - Software Products
+===================================
+
+Job Description
+
+We are seeking an experienced Product Manager to drive product strategy and 
+development for our software product portfolio.
+
+Responsibilities:
+- Define product vision, strategy, and roadmap
+- Gather and analyze user requirements through research and feedback
+- Work closely with engineering teams to deliver products on time
+- Create product specifications, user stories, and acceptance criteria
+- Prioritize features and manage product backlog
+- Conduct competitive analysis and market research
+- Collaborate with design, engineering, sales, and marketing teams
+- Monitor product metrics and KPIs
+- Plan product launches and go-to-market strategies
+- Engage with customers and stakeholders for feedback
+- Use agile methodologies (Scrum, Kanban) for product development
+
+Requirements:
+- Bachelor's degree in Business, Engineering, or related field
+- 4+ years of experience in product management, preferably in software/tech
+- Strong analytical and strategic thinking skills
+- Experience with product management tools (Jira, Confluence, Aha!)
+- Excellent communication and presentation skills
+- Ability to work with cross-functional teams
+- Understanding of software development lifecycle
+- Customer-focused mindset
+- Data-driven decision making approach
+
+Nice to have:
+- MBA or advanced degree
+- Technical background (engineering, computer science)
+- Experience with UX/UI design principles
+- Product management certifications

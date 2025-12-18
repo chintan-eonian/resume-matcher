@@ -1,0 +1,34 @@
+SOFTWARE DEVELOPER - Full Stack
+================================
+
+Job Description
+
+We are seeking a talented Full Stack Software Developer to join our dynamic team. 
+The ideal candidate will have experience in both frontend and backend development 
+technologies.
+
+Responsibilities:
+- Design and develop scalable web applications using React, Node.js, and Python
+- Write clean, maintainable, and efficient code
+- Collaborate with cross-functional teams to define and implement new features
+- Participate in code reviews and maintain high code quality standards
+- Troubleshoot and debug applications
+- Work with databases (PostgreSQL, MongoDB)
+- Implement RESTful APIs and microservices architecture
+- Use version control systems (Git, GitHub, GitLab)
+- Deploy applications to cloud platforms (AWS, Azure, GCP)
+
+Requirements:
+- Bachelor's degree in Computer Science or related field
+- 3+ years of experience in software development
+- Proficiency in JavaScript, Python, Java, or similar languages
+- Experience with React, Angular, or Vue.js frameworks
+- Knowledge of databases (SQL and NoSQL)
+- Understanding of Docker, Kubernetes, CI/CD pipelines
+- Strong problem-solving and analytical skills
+- Excellent communication and teamwork abilities
+
+Nice to have:
+- Experience with machine learning and AI
+- Knowledge of DevOps practices
+- Experience with test-driven development (TDD)

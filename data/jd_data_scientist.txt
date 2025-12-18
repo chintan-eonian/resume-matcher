@@ -1,0 +1,35 @@
+DATA SCIENTIST - Machine Learning Specialist
+============================================
+
+Job Description
+
+We are seeking a skilled Data Scientist with expertise in machine learning to join 
+our analytics team and drive data-driven decision making.
+
+Responsibilities:
+- Analyze large datasets to extract meaningful insights
+- Develop and deploy machine learning models for predictive analytics
+- Build and maintain data pipelines and ETL processes
+- Create data visualizations and dashboards (Tableau, Power BI)
+- Collaborate with business stakeholders to understand requirements
+- Conduct statistical analysis and A/B testing
+- Work with cloud platforms (AWS SageMaker, Google Cloud ML)
+- Write production-quality code in Python or R
+- Document models, algorithms, and methodologies
+- Stay updated with latest ML/AI research and techniques
+
+Requirements:
+- Master's or PhD in Data Science, Statistics, Computer Science, or related field
+- 3+ years of experience in data science or machine learning
+- Strong programming skills in Python (pandas, scikit-learn, TensorFlow, PyTorch)
+- Experience with SQL and database systems
+- Knowledge of statistical methods and machine learning algorithms
+- Experience with data visualization tools
+- Strong analytical and problem-solving skills
+- Excellent communication skills to explain complex concepts
+
+Nice to have:
+- Experience with deep learning and neural networks
+- Knowledge of natural language processing (NLP)
+- Experience with big data technologies (Spark, Hadoop)
+- Published research papers in ML/AI

@@ -31,6 +31,4 @@ Thumbs.db
 # Project specific
 *.log
 matching_results.txt
-data/*.txt
-!data/.gitkeep
 
